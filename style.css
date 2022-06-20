@@ -86,9 +86,10 @@ p {
     color: var(--Very_Dark_Cyan);
     font-size: 1.125rem;
     font-family: 400;
-    width: 60%;
+    inline-size: 300px;
     overflow-wrap: break-word;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .get {
@@ -312,9 +313,11 @@ ul {
     }
 
     .hero-para {
+        inline-size: 550px;
         overflow-wrap: break-word;
         font-weight: 400;
         margin-bottom: 2.5rem;
+        text-align: center;
     }
 
     .hero-text {
